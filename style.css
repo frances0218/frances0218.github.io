@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    
+    background-position: center;
+    background-size: center;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    right: auto;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 700px;
+    cursor: pointer;
+    margin-top: -23%;
+    margin-left: -26%;
+}
+
+ul{
+    margin-top: -30%;
+    margin-right: -3%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(243, 147, 21);
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+  color: #2ea7f8;
+}
+.info{
+    margin-left: 4%;
+    margin-top: -15%;
+}
+.info h1{
+    font-size: 65px;
+    color: rgb(19, 200, 245);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: rgb(230,104,59);
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(19, 200, 245);
+}
+
+.image{
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    right: 130px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 530px;
+    left: 3%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .boy{
+    left: 20%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 5%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+
+}
+
+.icons ion-icon:hover{
+    color: rgb(19, 200, 245);
+
+}
+
+p{
+    margin-right: 1%;
+    color: blanchedalmond;
+}
+
+#about p{
+    color: #000;
+}
+#about {
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  #about img{
+    width: 30%;
+    height: 100%;
+    bottom: 0;
+  } 
+
+  #about h2{
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: bold;
+    font-size: 30px;
+    padding: 20px;
+    
+  }
+
+  #about h2 span{
+    color: rgb(230,104,59);
+  }
+  #works h2 span{
+    color: rgb(230,104,59);
+  }
+
+  #works h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: bold;
+    font-size: 30px;
+    padding: 30px;
+    
+  }
+ 
+  .work-image{
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%;
+    text-align: right;
+  }
+  
+  
+
+  .w1{
+    width: 20%;
+    height: 40%;
+    margin: 0px 50px;
+  }
+
+  #works h2{
+    text-align: center;
+    font-size: bold;
+    margin-bottom: auto;
+  }
+  .w2{
+    width: 20%;
+    height: 40%;
+    margin: 0px 50px;
+  }
+
+  .w3{
+    width: 20%;
+    height: 40%;
+    margin: 0px 50px;
+  }
+
+  .w4{
+    width: 20%;
+    height: 40%;
+    margin: 0px 50px;
+  }
+
+  .w5{
+    width: 20%;
+    height: 40%;
+    margin: 0px 50px;
+  }
+
+  .w6{
+    width: 20%;
+    height: 40%;
+    margin: 0px 50px;
+  }
+
+  .w7{
+    width: 20%;
+    height: 40%;
+    margin: 0px 50px;
+  }
+
+  .w8{
+    width: 20%;
+    height: 40%;
+    margin: 0px 50px;
+  }
+
+  .container{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(3, 52, 66);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .container{
+    color: #fff;
+  }
+  
+form {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4bc0f7;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+
+  footer {
+    background-color: rgb(3, 52, 66);
+    color: #fff;
+    padding: -3px;
+    text-align: center;
+  }
+
+  .contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #ccc;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+
+  tr td{
+    padding-top: 10px;
+    color: #ccc;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: center;
+  }
+
+  
+  
+  /*Media Screen for all the Codes*/
+
+  @media (max-width: 760px) {
+    .navbar .logo {
+      width: 200px;
+      margin-top: -10%;
+      margin-left: -10%;
+    }
+  
+    ul {
+      margin-top: -20%;
+    }
+  
+    .info {
+      margin-left: 0;
+      margin-top: -5%;
+    }
+  
+    .info h1 {
+      font-size: 40px;
+    }
+  
+    .info h3 {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .image {
+      width: 20%;
+      right: 80px;
+    }
+  
+    .image img {
+      height: 300px;
+      left: 20%;
+    }
+  
+    .icons ion-icon {
+      margin-left: 3%;
+      font-size: 30px;
+    }
+  
+    #about img {
+      width: 60%;
+    }
+  
+    #about h2 {
+      font-size: 20px;
+      padding: 10px;
+    }
+  
+    .work-image {
+      max-width: 80%;
+    }
+  
+    .w1,
+    .w2,
+    .w3,
+    .w4,
+    .w5,
+    .w6,
+    .w7,
+    .w8 {
+      width: 45%;
+      height: 30%;
+      margin: 10px;
+    }
+    
+    .container {
+      font-size: 12px;
+    }
+  
+    footer p {
+      font-size: 12px;
+    }
+  }
+  
+
+
+
